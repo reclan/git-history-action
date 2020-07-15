@@ -1,0 +1,12 @@
+name: 'git-history-action'
+description: 'GitHub Action for my GitHistory app'
+author: 'COnstantine Kolobkov'
+outputs:
+  changelog:
+    description: 'Generate changelog'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+branding:
+  icon: 'edit'
+  color: 'gray-dark'
